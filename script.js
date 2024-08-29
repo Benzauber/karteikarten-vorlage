@@ -19,23 +19,65 @@ function Return() {
 function process() {
   switch (cards) {
     case 1:
-      document.getElementById("text").innerHTML = "Frage 1";
-      document.getElementById("text2").innerHTML = "Antwort 1";
+      document.getElementById("text").innerHTML = "der Kopf";
+      document.getElementById("text2").innerHTML = "la tête";
       break;
     case 2:
-      document.getElementById("text").innerHTML = "Frage 2";
-      document.getElementById("text2").innerHTML = "Antwort 2";
+      document.getElementById("text").innerHTML = "die Brust";
+      document.getElementById("text2").innerHTML = "la poitrine";
       break;
     case 3:
-      document.getElementById("text").innerHTML = "Frage 3";
-      document.getElementById("text2").innerHTML = "Antwort 3";
+      document.getElementById("text").innerHTML = "der Arm";
+      document.getElementById("text2").innerHTML = "le bras";
       break;
     case 4:
-      document.getElementById("text").innerHTML = "Frage 4";
-      document.getElementById("text2").innerHTML = "Antwort 4";
+      document.getElementById("text").innerHTML = "der Hintern";
+      document.getElementById("text2").innerHTML = "le derrière";
       complet = 1;
       finish = 1;
       break;
+    case 5:
+      document.getElementById("text").innerHTML = "das Bein";
+      document.getElementById("text2").innerHTML = "la jambe";
+      break;
+    case 6:
+      document.getElementById("text").innerHTML = "das Knie";
+      document.getElementById("text2").innerHTML = "le genou";
+      break;
+    case 7:
+      document.getElementById("text").innerHTML = "der Fuß";
+      document.getElementById("text2").innerHTML = "le pied";
+      break;
+    case 8:
+      document.getElementById("text").innerHTML = "die Schulter";
+      document.getElementById("text2").innerHTML = "l'épaule";
+      break;
+    case 9:
+      document.getElementById("text").innerHTML = "die Hand";
+      document.getElementById("text2").innerHTML = "la main";
+      break;
+    case 10:
+      document.getElementById("text").innerHTML = "der Ellbogen";
+      document.getElementById("text2").innerHTML = "le coude";
+      break;
+    case 11:
+      document.getElementById("text").innerHTML = "der Finger";
+      document.getElementById("text2").innerHTML = "le doigt";
+      break;
+    case 12:
+      document.getElementById("text").innerHTML = "der Rücken";
+      document.getElementById("text2").innerHTML = "le dos";
+      break;
+    case 13:
+      document.getElementById("text").innerHTML = "der Bauch";
+      document.getElementById("text2").innerHTML = "le ventre";
+      break;
+    case 14:
+      document.getElementById("text").innerHTML = "die Hüfte";
+      document.getElementById("text2").innerHTML = "la hanche";
+      complet = 1;
+      finish = 1;
+      break; 
   }
 }
 
